@@ -170,11 +170,5 @@ def main():
     root.mainloop()
 
 
-# Determine if we're running as a script or frozen exe
-if getattr(sys, 'frozen', False):
-    application_path = sys._MEIPASS  # When frozen, this points to the folder with the bundled resources
-else:
-    application_path = os.path.dirname(os.path.abspath(__file__))
-
 if __name__ == "__main__":
     main()
