@@ -13,22 +13,12 @@ Note:
     that need to be set in resource_path or config.py.
 """
 
-import io
 import json
 import os
 import os.path
 import subprocess
 import sys
-from datetime import date
 
-import PyPDF2
-from PIL import Image
-from pdf2image import convert_from_path
-from pdfrw import PdfReader, PdfWriter, PageMerge
-from reportlab.lib.pagesizes import letter
-from reportlab.pdfbase import pdfmetrics
-from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.pdfgen import canvas
 from digitalSignatureDeclaration import sign_declaration, detect_declaration_type
 from digitalSignatureDeclaration.config import icon_path
 

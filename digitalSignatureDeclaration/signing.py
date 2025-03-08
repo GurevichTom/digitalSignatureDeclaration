@@ -9,9 +9,7 @@ Exposes:
 """
 
 import io
-import json
 import os
-import sys
 from datetime import date
 
 import PyPDF2
@@ -22,6 +20,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfgen import canvas
+
 from digitalSignatureDeclaration.config import SIGNATURE_PATHS, poppler_bin
 
 
