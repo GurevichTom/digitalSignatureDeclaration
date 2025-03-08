@@ -21,7 +21,7 @@ You must also have **Poppler** installed or accessible. If running on Windows, s
 
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/digitalSignatureDeclaration.git
+   git clone https://github.com/GurevichTom/digitalSignatureDeclaration.git
    cd digitalSignatureDeclaration
    ```
 2. **Install dependencies**:
