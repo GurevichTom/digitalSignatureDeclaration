@@ -6,7 +6,7 @@ A Python library (and optional GUI) for detecting PDF declaration type and signi
 
 - **Declaration Type Detection**: Scans PDF text to classify it as `company`, `foreigner`, or `israeli`.
 - **Signature Overlay**: Merges dynamic text (in Hebrew) onto an existing PDF’s first page, then stamps placeholder images representing signatures.
-- **GUI Option**: Includes a `gui.py` (formerly `main.py`) for a Tkinter-based front end to easily input name, ID, and PDF paths.
+- **GUI Option**: Includes a `gui.py` for a Tkinter-based front end to easily input name, ID, and PDF paths.
 - **Configuration**: Centralizes resource paths (signatures, icons, poppler path) in `config.py`, allowing environment-based overrides.
 
 ## Requirements
