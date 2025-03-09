@@ -6,7 +6,7 @@ the PDF to sign. Relies on the sign_declaration function from signing.py to perf
 the underlying PDF manipulation.
 
 Usage:
-    python main.py
+    python gui.py
 
 Note:
     This script is environment-specific and may rely on custom icons or images
